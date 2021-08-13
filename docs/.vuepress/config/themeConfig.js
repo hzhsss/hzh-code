@@ -1,5 +1,5 @@
 const nav = require('./themeConfig/nav.js');
-// const htmlModules = require('./htmlModules.js');
+const htmlModules = require('./htmlModules.js');
 // const sidebar = require('./sidebar.js');
 
 // 主题配置
@@ -81,5 +81,5 @@ module.exports = {
         createYear: 2021, // 博客创建年份
         copyrightInfo: 'yuadh', // 博客版权信息，支持a标签
     },
-    //htmlModules // 插入hmtl(广告)模块
+    htmlModules // 插入hmtl(广告)模块
 }
