@@ -6,7 +6,9 @@ module.exports = [{
             // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
             { text: 'HTML', link: '/pages/00b11a/' },
             { text: 'CSS', link: '/pages/6cc4d3/' },
+            { text: 'JavaScript', link: '/pages/763a9e/' },
             { text: 'Go', link: '/pages/d92a21/' },
+
 
         ],
     },
@@ -51,7 +53,7 @@ module.exports = [{
         ],
     },
     {
-        text: '其他',
+        text: '其它',
         link: '/other/',
 
     },

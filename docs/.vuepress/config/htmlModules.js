@@ -31,6 +31,7 @@ module.exports = {
     <p>
       临时知识库
     </p>
+    
     </div>`,
     //<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:100%;" />
     // `<!-- 纵向自适应 -->

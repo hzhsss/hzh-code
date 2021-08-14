@@ -1,96 +1,84 @@
-<p align="center"><a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
+---
+home: true
+# heroImage: /img/web.png
+heroText: 程序员书籍笔记
+tagline: 总结知识笔记，方便快速查找
+actionText: 快速开始
+actionLink: /web/
+bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+
+# 不显示文章列表
+postList: none
+---
+
+<p align="center"><a href="https://code.yuandehua.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="http://code.yuandehua.com/img/study.png" alt="logo"></a></p>
 
 <p align="center">
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3ACI"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/CI/badge.svg" alt="CI"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3AbaiduPush"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/baiduPush/badge.svg" alt="baiduPush"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xugaoyi/vuepress-theme-vdoing
-" alt="License"></a>
-  <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/stargazers"><img src="https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing?logo=ReverbNation&logoColor=rgba(255,255,255,.6)" alt="GitHub stars"></a>
+    <a href="https://github.com/yuadh/code-note/actions?query=workflow%3ACI"><img src="https://github.com/yuadh/code-note/workflows/CI/badge.svg" alt="CI"></a>
+    <a href="https://github.com/yuadh/code-note/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xugaoyi/vuepress-theme-vdoing" alt="License"></a>
+    <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
+    <a href="https://github.com/yuadh/code-note"><img src="https://img.shields.io/github/stars/yuadh/code-note?logo=ReverbNation&logoColor=rgba(255,255,255,.6)" alt="GitHub stars"></a>
+<h1 align="center">📖程序员学习笔记</h1>
+<h4 align="center">一个自用的云知识库</h4>
+
+
+在线阅读地址：[程序员学习笔记](https://code.yuandehua.com/)
+
+APP下载链接：[点击下载](https://code.yuandehua.com/)
+
+## 🍭创建目的
+
+出于将所学的知识体系化、抗遗忘等目的，而找的一款好用的在线知识库项目。相比于之前本人使用的动态博客来说，此知识库拥有速度更快、更方便备份迁移等优势。选择这个项目来搭建知识库，能在较长的一段时间内去学习完善知识体系。虽然网站起名叫做程序员书籍笔记，但本人自知离码农的职位都相距甚远，所以需要不断学习向目标前进向大佬学习，完成好工作生活上的事。
+
+项目拉取自一位大佬，但原项目不是这位大佬的。原项目链接（[xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)）
 
 
 
-</p>
 
-<h2 align="center">vuepress-theme-vdoing</h2>
+## 🤩已收录书籍
 
-* [文档 (国内源)](https://doc.xugaoyi.com/)
-* [文档 (github源)](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
-* [效果：Evan's blog](https://xugaoyi.com/)
+目前本人还在不断学习中，目前已收录下面几本书（先读完B站CodeSheep推荐的前端书籍）
 
+- 《HTML5权威指南》
+- 《CSS权威指南》
+- 《JavaScript 高级程序设计》
+- 《MongoDB权威指南》
+- 《ECMAScript6入门教程》
+- 《鸟哥Linux私房菜》
 
-## 介绍
-1. 这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`
-2. 轻松构建一个`结构化`的知识库，让你的知识海洋像一本本书一样清晰易读。
-3. 博客功能提供一种知识的`碎片化`形态，并支持个性化博客配置。
-4. `简洁高效`，以 Markdown 为中心的项目结构。内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点。
+## 🍗项目特点
 
-[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+### 📖对所学知识的记录
 
-## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://xugaoyi.com/)
-* 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
-* 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
+在日常工作学习过程中容易对所学知识产生遗忘，此项目能够记录所学的知识。方便在遗忘过后，能够找到不清晰的知识点，快速重拾起来。
 
+### 🔨在线浏览，快速定位
 
-## 快速上手
+随时随地可以打开网站浏览自己的知识库。项目本身的目录结构非常清晰同时拥有自动生成标题栏等功能，方便快速定位到想要的知识点。
 
-```bash
-# clone the project
-git clone https://github.com/xugaoyi/vuepress-theme-vdoing.git
+## 🔖目录（待补充）
 
-# enter the project directory
-cd vuepress-theme-vdoing
+### 前端和后端
 
-# install dependency
-npm install # or yarn install
+### 框架和软件
 
-# develop
-npm run dev # or yarn dev
-```
-## ⚡️未来...
+### 基础
 
+### 扩展
 
-期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
+## 💰支持这个项目
 
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress，也可能两个都升级。目前(2020.10.29)来看还需要一段时间才能让大家使用上基于它们的新版本，还希望大家多多 [:sparkling_heart:支持](https://doc.xugaoyi.com/pages/1b12ed/) 哟，持续关注吧~
+| 微信                                                         | 支付宝                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![img](https://code.yuandehua.com/img/weixin.jpg) | ![img](https://code.yuandehua.com/img/zfb.jpg) |
 
-## :sparkling_heart:支持这个项目
+##  ✉联系
 
-如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
+- **B站**: <https://space.bilibili.com/27125162>
+- **博客**: <https://code.yuandehua.com/>
+- **GitHub**: <https://github.com/yuadh>
 
-1. *Star* 并 分享这个项目 :rocket:
-2. 保留主题 footer(页脚) 的主题链接 :D
-3. 关注公众号`yqyjs666`，回复`前端学习`，可获取 [前端学习资源](https://github.com/xugaoyi/blog-gitalk-comment/wiki/Front-end-Study)
-4. 轻轻点击一次页面广告 ✨
-5. 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
+## 🎁致谢
 
-谢谢！ :heart:
+❤️感谢[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)提供的主题项目
 
-| 微信赞赏 | 微信 | 支付宝 |
-| :---: | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
-
-二维码没有正常显示？点 [这里😎](https://doc.xugaoyi.com/pages/1b12ed/)
-
-## 致谢
-:heart:感谢支持这个项目的朋友
-
-:heart:感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/xugaoyi/vuepress-theme-vdoing/graphs/contributors)
-
-## Vdoing官方交流群
-群号：694387113
-
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号：694387113" width="200">
-
-## 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如80、90后朋友小时候玩的小霸王游戏机：<https://game.xugaoyi.com>，还有更多好玩的等你去探索吧~
-
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:370px;" />
-<!-- <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:30%;" /> -->
-
-## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
-
-Copyright (c) 2019-present Evan Xu
