@@ -17,6 +17,7 @@ module.exports = [{
         link: '/software/',
         items: [
             { text: 'Vue', link: '/pages/916d34/' },
+            { text: 'MarkDown', link: '/pages/a76118/' },
         ],
     },
     {
