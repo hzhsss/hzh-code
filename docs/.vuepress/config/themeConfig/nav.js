@@ -18,6 +18,7 @@ module.exports = [{
         items: [
             { text: 'Vue', link: '/pages/916d34/' },
             { text: 'MarkDown', link: '/pages/a76118/' },
+            { text: 'git', link: '/pages/665f65/' },
         ],
     },
     {
@@ -32,6 +33,7 @@ module.exports = [{
         link: '/study/',
         items: [
             { text: '四级', link: '/pages/0fcaec/' },
+            { text: '便利签单词', link: '/pages/aff715/' },
         ]
     },
     {
