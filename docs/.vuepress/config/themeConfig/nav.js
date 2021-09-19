@@ -8,6 +8,7 @@ module.exports = [{
             { text: 'CSS', link: '/pages/6cc4d3/' },
             { text: 'JavaScript', link: '/pages/763a9e/' },
             { text: 'Go', link: '/pages/d92a21/' },
+            { text: '前端知识', link: '/pages/a55c11/' },
 
 
         ],
@@ -32,8 +33,8 @@ module.exports = [{
         text: '学业|英语',
         link: '/study/',
         items: [
-            { text: '四级', link: '/pages/0fcaec/' },
-            { text: '便利签单词', link: '/pages/aff715/' },
+            { text: '四级', link: '/pages/395c00/' },
+            { text: '第一学期课程', link: '/pages/3e0e9b/' },
         ]
     },
     {
@@ -58,6 +59,10 @@ module.exports = [{
     {
         text: '其它',
         link: '/other/',
+        items: [
+            { text: '日记便签', link: '/pages/b0d962/' },
+            { text: '前端导航', link: '/pages/c35e74/' },
 
+        ]
     },
 ]
