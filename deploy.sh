@@ -9,17 +9,17 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-# deploy to github pages
-echo 'code.yuandehua.com' > CNAME
+# deploy to github pages https://github.com/hzhsss/hzh-code.git
+echo 'hzh.yuadh.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:yuadh/code-note.git
+  githubUrl=git@github.com:hzhsss/hzh-code.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://yuadh:${GITHUB_TOKEN}@github.com/yuadh/code-note.git
-  git config --global user.name "yuadh"
-  git config --global user.email "1912546219@qq.com"
+  githubUrl=https://hzhsss:${GITHUB_TOKEN}@github.com/hzhsss/hzh-code.git
+  git config --global user.name "hzhsss"
+  git config --global user.email "2649755461@qq.com"
 fi
 git init
 git add -A
